@@ -33,7 +33,7 @@
 
 ## 📂 Project Structure
 
-```bash
+
 automated-financial-report/
 │
 ├── app.py                     # Streamlit frontend
@@ -50,62 +50,48 @@ automated-financial-report/
 ├── data/                     # Sample financial CSV data
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
-📥 Installation
-bash
-Copy
-Edit
-git clone https://github.com/your-username/automated-financial-report.git
+
+
+📥 Installation:
+
+git clone https://github.com/tarunsai2020/automated-financial-report.git
 cd automated-financial-report
 python -m venv .venv
 .venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
+
+
 ▶️ Run the Application
 Launch the Streamlit app:
-
-bash
-Copy
-Edit
-streamlit run app.py
+-streamlit run app.py
 Or generate PDF reports from CLI:
+-python main.py
 
-bash
-Copy
-Edit
-python main.py
+
 📊 Sample Dataset
 You can use the Financial Statements.csv from Kaggle to try it out.
 
 📁 Output Example
 PDF Report: /reports/MSFT_report.pdf
-
 Excel Export: /reports/MSFT_financials.xlsx
-
 Chart Image: /reports/MSFT_chart.png
 
 🤖 Forecasting Model
 Uses LinearRegression to predict:
-
 Revenue
-
 Net Income
-
 Based on last N years of actual data
 
 📌 To Do
  Add multi-model support (Prophet, LSTM)
-
  Customize color themes for charts
-
  Deploy on Streamlit Cloud
-
  Build GitHub Action for auto PDF generation
 
-📄 License
-MIT License. See LICENSE for details.
+
 
 🙋‍♂️ Author
 Tarun Sai Tirumala
 📧 tarunsaitirumala@gmail.com
-🔗 LinkedIn | GitHub
 
 

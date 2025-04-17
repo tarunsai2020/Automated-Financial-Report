@@ -33,7 +33,7 @@
 
 ## 📂 Project Structure
 
-
+```bash
 automated-financial-report/
 │
 ├── app.py                     # Streamlit frontend

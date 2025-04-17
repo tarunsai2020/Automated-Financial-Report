@@ -14,7 +14,7 @@
 - 🧾 Generate and download beautiful PDF reports
 - 📊 Export summarized data as Excel
 - 🎯 Filter data by year range and focus on key financials
-- 📤 GitHub and Power BI integration for end-to-end analytics
+- 📤 Power BI integration for end-to-end analytics
 
 ---
 

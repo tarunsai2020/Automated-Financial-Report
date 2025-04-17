@@ -54,7 +54,7 @@ automated-financial-report/
 └── README.md                 # Project documentation
 
 
-📥 Installation:
+##📥 Installation:
 
 git clone https://github.com/tarunsai2020/automated-financial-report.git
 cd automated-financial-report
@@ -63,7 +63,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 
-▶️ Run the Application
+##▶️ Run the Application
 
 Launch the Streamlit app:
 -streamlit run app.py
@@ -71,19 +71,19 @@ Or generate PDF reports from CLI:
 -python main.py
 
 
-📊 Sample Dataset
+##📊 Sample Dataset
 
 You can use the Financial Statements.csv from Kaggle to try it out.
 
 
-📁 Output Example
+##📁 Output Example
 
 PDF Report: /reports/MSFT_report.pdf
 Excel Export: /reports/MSFT_financials.xlsx
 Chart Image: /reports/MSFT_chart.png
 
 
-🤖 Forecasting Model
+##🤖 Forecasting Model
 
 Uses LinearRegression to predict:
 Revenue
@@ -91,7 +91,7 @@ Net Income
 Based on last N years of actual data
 
 
-📌 To Do
+##📌 To Do
 
  Add multi-model support (Prophet, LSTM)
  Customize color themes for charts
@@ -99,7 +99,7 @@ Based on last N years of actual data
  Build GitHub Action for auto PDF generation
 
 
-🙋‍♂️ Author
+##🙋‍♂️ Author
 
 Tarun Sai Tirumala
 📧 tarunsaitirumala@gmail.com

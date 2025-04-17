@@ -14,20 +14,22 @@
 - 🧾 Generate and download beautiful PDF reports
 - 📊 Export summarized data as Excel
 - 🎯 Filter data by year range and focus on key financials
+- 📤 GitHub and Power BI integration for end-to-end analytics
 
 ---
 
 ## 🚀 Technologies Used
 
-| Tool          | Description                               |
-|---------------|-------------------------------------------|
-| Python        | Core language                             |
-| Streamlit     | Interactive UI frontend                   |
-| Scikit-learn  | ML forecasting with Linear Regression     |
-| Pandas        | Data manipulation and analysis            |
-| Matplotlib    | Plot generation                           |
-| WeasyPrint    | HTML-to-PDF rendering engine              |
-| Jinja2        | Templating engine for PDF layout          |
+| Tool          | Description                                         |
+|---------------|-----------------------------------------------------|
+| Python        | Core development language                           |
+| Streamlit     | Interactive frontend web application                |
+| Scikit-learn  | Linear Regression model for financial forecasting   |
+| Pandas        | Data transformation and filtering                   |
+| Matplotlib    | Revenue & income plotting                           |
+| WeasyPrint    | HTML to PDF engine for report generation            |
+| Jinja2        | PDF layout templating                               |
+| Power BI      | Connect to Excel exports for advanced analytics     |
 
 ---
 

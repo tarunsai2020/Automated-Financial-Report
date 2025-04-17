@@ -53,6 +53,7 @@ automated-financial-report/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 
+```bash
 ---
 ##📥 Installation:
 

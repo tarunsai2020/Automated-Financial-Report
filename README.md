@@ -62,6 +62,7 @@ pip install -r requirements.txt
 
 
 ▶️ Run the Application
+
 Launch the Streamlit app:
 -streamlit run app.py
 Or generate PDF reports from CLI:
@@ -69,28 +70,35 @@ Or generate PDF reports from CLI:
 
 
 📊 Sample Dataset
+
 You can use the Financial Statements.csv from Kaggle to try it out.
 
+
 📁 Output Example
+
 PDF Report: /reports/MSFT_report.pdf
 Excel Export: /reports/MSFT_financials.xlsx
 Chart Image: /reports/MSFT_chart.png
 
+
 🤖 Forecasting Model
+
 Uses LinearRegression to predict:
 Revenue
 Net Income
 Based on last N years of actual data
 
+
 📌 To Do
+
  Add multi-model support (Prophet, LSTM)
  Customize color themes for charts
  Deploy on Streamlit Cloud
  Build GitHub Action for auto PDF generation
 
 
-
 🙋‍♂️ Author
+
 Tarun Sai Tirumala
 📧 tarunsaitirumala@gmail.com
 

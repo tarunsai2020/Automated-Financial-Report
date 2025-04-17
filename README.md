@@ -53,8 +53,8 @@ automated-financial-report/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 
-```bash
----
+```
+
 ##📥 Installation:
 
 git clone https://github.com/tarunsai2020/automated-financial-report.git
